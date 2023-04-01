@@ -15,7 +15,7 @@ def main():
     yellow = args.yellow
     gray = args.gray
 
-    if len(green) != length or len(yellow) > length or len(gray) > length:
+    if len(green) != length or len(yellow) > length:
         print('Invalid arguments')
         return
 
